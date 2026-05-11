@@ -2962,6 +2962,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:LP5907MFX-3.2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6340,7 +6439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "138a6b0f-126d-4956-b0b5-673f022fbf55")
-		(property "Reference" "J4"
+		(property "Reference" "CN2"
 			(at 227.33 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6362,7 +6461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC:CONN-TH_AV-5"
+		(property "Footprint" "lcsc:CONN-TH_AV-5"
 			(at 219.71 44.704 0)
 			(hide yes)
 			(show_name no)
@@ -6437,7 +6536,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "J4")
+					(reference "CN2")
 					(unit 1)
 				)
 			)
@@ -7041,6 +7140,82 @@
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 261.62 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f23b8f8-8e35-4f59-b504-de8509e9b687")
+		(property "Reference" "H4"
+			(at 264.16 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 264.16 162.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 261.62 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 261.62 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ES8390-breakout"
+				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -7920,7 +8095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4043648c-9019-4a55-b11c-f4ff933253dd")
-		(property "Reference" "CN2"
+		(property "Reference" "CN5"
 			(at 270.51 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8026,7 +8201,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "CN2")
+					(reference "CN5")
 					(unit 1)
 				)
 			)
@@ -8771,7 +8946,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "100n"
 			(at 39.878 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8815,7 +8990,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C15849"
+		(property "LCSC Part" "C14663"
 			(at 41.91 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8932,7 +9107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b3471e0-f2e1-4c13-b385-7398c446c8d9")
-		(property "Reference" "J5"
+		(property "Reference" "CN3"
 			(at 237.49 109.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9032,7 +9207,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "J5")
+					(reference "CN3")
 					(unit 1)
 				)
 			)
@@ -9525,98 +9700,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 146.05 179.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "830f2735-4248-4976-8118-e3d85b32b440")
-		(property "Reference" "C14"
-			(at 148.082 177.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 148.082 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 146.05 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 146.05 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C15849"
-			(at 146.05 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cc186a78-2a8e-46e8-93ac-78d774f0c6e5")
-		)
-		(pin "2"
-			(uuid "b7a8ba71-6681-4f8d-a0e2-78399ccc2728")
-		)
-		(instances
-			(project "ES8390-breakout"
-				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDDA")
 		(at 158.75 66.04 0)
 		(unit 1)
@@ -10037,18 +10120,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 146.05 147.32 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 261.62 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a6d0f137-212c-4469-a932-ab83d25016bd")
-		(property "Reference" "C13"
-			(at 148.082 146.05 0)
+		(fields_autoplaced yes)
+		(uuid "a00b91c7-a240-48aa-af99-ec35782fb6cf")
+		(property "Reference" "H1"
+			(at 264.16 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10058,8 +10142,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 148.082 148.59 0)
+		(property "Value" "MountingHole"
+			(at 264.16 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10069,8 +10153,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 146.05 147.32 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 261.62 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10081,7 +10165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 147.32 0)
+			(at 261.62 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10091,8 +10175,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 146.05 147.32 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 261.62 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10101,28 +10185,11 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC Part" "C15849"
-			(at 146.05 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cb3dc11e-dc74-4486-b30b-564047a61964")
-		)
-		(pin "2"
-			(uuid "990cc9c0-4329-4623-9b22-c1c5f1c7472a")
 		)
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "C13")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -10311,7 +10378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a985f55d-55be-437f-8e96-264b98032b6a")
-		(property "Reference" "J3"
+		(property "Reference" "CN1"
 			(at 227.33 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10333,7 +10400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LCSC:CONN-TH_AV-5"
+		(property "Footprint" "lcsc:CONN-TH_AV-5"
 			(at 219.71 28.194 0)
 			(hide yes)
 			(show_name no)
@@ -10408,7 +10475,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "J3")
+					(reference "CN1")
 					(unit 1)
 				)
 			)
@@ -10690,7 +10757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b64f6224-7349-4a1b-a10c-44d5e50b6159")
-		(property "Reference" "CN1"
+		(property "Reference" "CN4"
 			(at 270.51 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10796,7 +10863,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "CN1")
+					(reference "CN4")
 					(unit 1)
 				)
 			)
@@ -10968,6 +11035,98 @@
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 146.05 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c04fc861-8df1-4cc4-b57e-2c05d595fbeb")
+		(property "Reference" "C13"
+			(at 148.082 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 148.082 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 146.05 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 146.05 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 146.05 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c3c8c4c-1b64-4e85-9471-9d038c64f0dd")
+		)
+		(pin "2"
+			(uuid "45447358-cced-419e-9418-5f600a95479a")
+		)
+		(instances
+			(project "ES8390-breakout"
+				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -11185,6 +11344,174 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 146.05 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cad53c16-bf32-4b7d-a7aa-3a7b3b3f9ce5")
+		(property "Reference" "C14"
+			(at 148.082 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 148.082 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 146.05 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 146.05 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C14663"
+			(at 146.05 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "657401eb-e248-405f-8044-824678b08376")
+		)
+		(pin "2"
+			(uuid "34a2c648-68e4-46e1-a8d3-5b01e341bb11")
+		)
+		(instances
+			(project "ES8390-breakout"
+				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 261.62 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce762ce2-d9c0-4caa-bb90-d9da6d0478a6")
+		(property "Reference" "H3"
+			(at 264.16 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 264.16 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 261.62 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 261.62 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ES8390-breakout"
+				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 168.91 41.91 0)
 		(mirror x)
 		(unit 1)
@@ -11348,6 +11675,82 @@
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 261.62 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd41978f-6922-4e7c-bb08-d0315ed54127")
+		(property "Reference" "H2"
+			(at 264.16 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 264.16 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+			(at 261.62 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 261.62 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "ES8390-breakout"
+				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
+					(reference "H2")
 					(unit 1)
 				)
 			)

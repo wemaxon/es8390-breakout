@@ -662,7 +662,7 @@
         "uuid": "bacd90e0-d0e6-416e-94f2-e705833f8e7a"
       }
     ],
-    "used_designators": "#PWR1-40,R1-3,J1-5,U1-6,C1-28,CN1-2,FB1",
+    "used_designators": "C1-20,#PWR1-39,CN1-5,FB1,R1-3,J1-5,U1-5,H1-4",
     "variants": []
   },
   "sheets": [
