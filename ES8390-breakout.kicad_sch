@@ -1507,175 +1507,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Audio:AudioJack2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioJack2"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle mono phone headphone TS connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "AudioJack2_0_1"
-				(rectangle
-					(start -3.81 0)
-					(end -2.54 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.54 3.81)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AudioJack2_1_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -3572,6 +3403,271 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LCSC:PJ-603A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Audio"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PJ-603A"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc:AUDIO-SMD_PJ-603A"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_HOOYA-PJ-603A_C309273.html"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "HOOYA(皓宇电子)"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "PJ-603A"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C309273"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Audio Connectors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PJ-603A_0_1"
+				(rectangle
+					(start -7.11 3.3)
+					(end -5.59 -3.56)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(bezier
+					(pts
+						(xy -4.83 -1.52) (xy -4.83 -2.29) (xy -3.81 -2.29) (xy -3.81 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -4.06) (xy -1.27 -4.06) (xy -1.78 -5.08) (xy -2.29 -4.06)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy -3.81 2.54) (xy -3.81 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.78 0) (xy -2.29 -1.02) (xy -2.79 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy -1.78 -2.54) (xy -1.78 -2.54) (xy -1.78 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy -4.32 -5.08) (xy -4.83 -4.32) (xy -5.33 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -2.54 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -5.08 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 0 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -4721,6 +4817,10 @@
 		(uuid "227cf539-ec36-407e-af9f-a3c938819b65")
 	)
 	(no_connect
+		(at 52.07 162.56)
+		(uuid "43177396-1f30-4321-9882-0d2d77647c08")
+	)
+	(no_connect
 		(at 119.38 41.91)
 		(uuid "4d00316b-34af-4243-82e1-72ab2f6f2d2b")
 	)
@@ -4735,6 +4835,10 @@
 	(no_connect
 		(at 55.88 54.61)
 		(uuid "bc42a536-b426-4080-97af-66d74be68b33")
+	)
+	(no_connect
+		(at 52.07 160.02)
+		(uuid "c23f8067-a2d4-44ef-a2af-fbb10e685b78")
 	)
 	(wire
 		(pts
@@ -5075,16 +5179,6 @@
 			(type default)
 		)
 		(uuid "2147636b-31bc-4bd3-be1b-041041a6b92f")
-	)
-	(wire
-		(pts
-			(xy 59.69 154.94) (xy 60.96 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23611fb5-5778-4a04-92a1-5769ffdce473")
 	)
 	(wire
 		(pts
@@ -5968,16 +6062,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 157.48) (xy 67.31 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a435bfd-d9c5-488d-b6a5-09038cdf76f0")
-	)
-	(wire
-		(pts
 			(xy 135.89 129.54) (xy 139.7 129.54)
 		)
 		(stroke
@@ -6345,6 +6429,16 @@
 			(type default)
 		)
 		(uuid "c6ddd35b-1e70-4cba-8872-c25fe0de62d8")
+	)
+	(wire
+		(pts
+			(xy 52.07 157.48) (xy 67.31 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f2dd63-863f-4a61-be82-effaa167b3fb")
 	)
 	(wire
 		(pts
@@ -6845,6 +6939,16 @@
 			(type default)
 		)
 		(uuid "f95119c1-1780-42e8-b2de-d06d92aba5ea")
+	)
+	(wire
+		(pts
+			(xy 52.07 154.94) (xy 60.96 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc97b9c9-f449-4c1c-b30e-7742d121a71b")
 	)
 	(wire
 		(pts
@@ -7718,7 +7822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0155711d-7693-437b-9c0d-fd63aec1334a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 30.48 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7778,7 +7882,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7796,7 +7900,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07e394d7-cd9c-467e-8e44-85c4fcff3715")
-		(property "Reference" "C14"
+		(property "Reference" "C11"
 			(at 89.408 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7871,7 +7975,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "C14")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -7889,7 +7993,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0929a84f-ea7f-4f78-b8ea-4426552a47c5")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 38.1 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7949,7 +8053,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7967,7 +8071,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0965c8fa-b9cd-4a35-a789-840be385789e")
-		(property "Reference" "R9"
+		(property "Reference" "R3"
 			(at 24.892 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8022,7 +8126,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C95177"
+		(property "LCSC Part" "C14675"
 			(at 26.67 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -8042,7 +8146,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "R9")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -8060,7 +8164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b8d1496-418c-4fa6-bab9-bda1a6e12e33")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR018"
 			(at 121.92 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8120,7 +8224,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR033")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8138,7 +8242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1273d434-83c5-46f5-84ba-2346269f9273")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR040"
 			(at 222.25 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -8198,7 +8302,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR06")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -8216,7 +8320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "138a6b0f-126d-4956-b0b5-673f022fbf55")
-		(property "Reference" "CN2"
+		(property "Reference" "CN3"
 			(at 219.71 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8313,7 +8417,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "CN2")
+					(reference "CN3")
 					(unit 1)
 				)
 			)
@@ -8326,12 +8430,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13bc2acf-adab-4a5e-89e3-b852d131cdcd")
-		(property "Reference" "C9"
+		(property "Reference" "C7"
 			(at 49.022 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8406,7 +8510,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "C9")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8424,7 +8528,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14c6f80f-8c29-4328-b653-00c4200d90c8")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR047"
 			(at 259.08 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8484,7 +8588,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR049")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -8501,7 +8605,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "150b2c98-b0e1-4014-81da-bd9f76133e56")
-		(property "Reference" "R17"
+		(property "Reference" "R7"
 			(at 39.878 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8576,7 +8680,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "R17")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8589,7 +8693,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8687,7 +8791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a792068-e263-4441-b52e-8bd1aa22f245")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 22.86 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -8747,7 +8851,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8850,7 +8954,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9023,7 +9127,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2195a219-b5cf-4982-b326-862b78199897")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 115.57 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9078,7 +9182,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C95177"
+		(property "LCSC Part" "C105588"
 			(at 114.3 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -9098,7 +9202,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -9110,12 +9214,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22ba9e31-d248-4279-9a1c-e60959a96ecf")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 122.428 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9190,7 +9294,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -9208,7 +9312,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "241173e9-f6bc-4572-ad37-b5f053a74820")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR033"
 			(at 198.12 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9268,7 +9372,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR038")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9286,7 +9390,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2665fce8-413a-4547-81dc-cf0ce7541967")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 153.67 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9346,7 +9450,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9364,7 +9468,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27578f6b-0ec5-41ff-8b03-53b3f2e48fc1")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR035"
 			(at 203.2 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9424,7 +9528,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR032")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9441,7 +9545,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28f6dba5-6d1b-4196-89eb-ef94b06e0bc4")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR036"
 			(at 205.74 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -9501,7 +9605,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR047")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -9712,7 +9816,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "292501bf-a07d-4466-a2e9-cb8de1ab44d8")
-		(property "Reference" "R19"
+		(property "Reference" "R17"
 			(at 165.608 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9767,7 +9871,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C95177"
+		(property "LCSC Part" "C99782"
 			(at 163.83 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9787,7 +9891,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "R19")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -9804,7 +9908,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b6cac98-a9ab-4d7d-9c42-938e0978eb2b")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR013"
 			(at 60.96 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -9864,7 +9968,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR026")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9882,7 +9986,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ee7aed9-3eb4-4773-8ca2-469f51518467")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR09"
 			(at 30.48 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -9942,7 +10046,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR02")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10037,7 +10141,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30392a9e-1ac6-467d-8ec5-61fd1f40180c")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR025"
 			(at 143.51 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -10097,7 +10201,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR045")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10114,7 +10218,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "322162ff-c359-464d-972c-57d9ab379d09")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 155.448 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10169,7 +10273,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C95177"
+		(property "LCSC Part" "C105588"
 			(at 153.67 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10189,7 +10293,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -10300,7 +10404,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ac1bcf8-7b92-4633-abc2-531da9d72bce")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 195.58 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10322,7 +10426,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-882"
 			(at 198.12 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -10364,7 +10468,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10377,12 +10481,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f0845dc-e1fc-415e-873f-2c796e6a4f28")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 20.828 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10457,7 +10561,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -10477,7 +10581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4043648c-9019-4a55-b11c-f4ff933253dd")
-		(property "Reference" "CN5"
+		(property "Reference" "CN2"
 			(at 186.69 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10583,7 +10687,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "CN5")
+					(reference "CN2")
 					(unit 1)
 				)
 			)
@@ -10601,7 +10705,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41872ff3-96fb-40c2-a88e-0fce6fd73d42")
-		(property "Reference" "R8"
+		(property "Reference" "R2"
 			(at 24.892 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10656,7 +10760,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C95177"
+		(property "LCSC Part" "C14675"
 			(at 26.67 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -10676,7 +10780,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "R8")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10694,7 +10798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42fd3785-aeca-4197-93dd-afb1925fa8f0")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR04"
 			(at 26.67 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -10754,7 +10858,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR043")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -10772,7 +10876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46987e98-2d34-4a6c-9ff6-565253c806bb")
-		(property "Reference" "U6"
+		(property "Reference" "U1"
 			(at 152.4 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10794,7 +10898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lcsc:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL"
 			(at 153.67 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -10817,6 +10921,17 @@
 			)
 		)
 		(property "Description" "Dual Operational Amplifiers, SOIC-8/TSSOP-8/VSSOP-8"
+			(at 153.67 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C54539963"
 			(at 153.67 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -10854,7 +10969,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "U6")
+					(reference "U1")
 					(unit 3)
 				)
 			)
@@ -10872,7 +10987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50e4e169-9d74-455e-b519-712f3dae9534")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 50.8 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10954,7 +11069,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -10972,7 +11087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53bcc455-6af0-4eb2-bc2e-1ff0aec9ede7")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR02"
 			(at 22.86 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -11032,7 +11147,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR04")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -11049,7 +11164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "566aa6ae-f90b-4a68-b8a2-4ac58827c97f")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 175.768 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11104,7 +11219,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C95177"
+		(property "LCSC Part" "C99782"
 			(at 173.99 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -11124,7 +11239,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -11142,7 +11257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "577d8519-9b47-4982-b72b-ea6338f4dde1")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR020"
 			(at 124.46 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -11202,7 +11317,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR035")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11220,7 +11335,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b1453a1-a570-43bd-9ddd-68ee106f7ec7")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR042"
 			(at 232.41 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11280,7 +11395,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR010")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -11298,7 +11413,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c7fdc9c-1419-4cda-9247-19afe99b4d47")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 144.78 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -11358,7 +11473,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11495,7 +11610,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5faaca6f-5b07-42bb-bbd6-413470579453")
-		(property "Reference" "D3"
+		(property "Reference" "D6"
 			(at 251.46 133.3499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11517,7 +11632,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-882"
 			(at 254 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11559,7 +11674,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "D3")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -11572,7 +11687,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11669,7 +11784,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6360813a-cd02-49f2-be9d-5b8c42af61ea")
-		(property "Reference" "C23"
+		(property "Reference" "C8"
 			(at 59.182 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11744,7 +11859,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "C23")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -11756,12 +11871,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "639b3ba0-fbc7-4a62-92e3-55c9bb97c9b5")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 139.192 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11836,7 +11951,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -11854,7 +11969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "672a7007-dcd3-4b85-b736-ebb844524caf")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR045"
 			(at 252.73 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -11914,7 +12029,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR048")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -11932,7 +12047,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "690ffe6b-6cad-46cd-8028-7d8ac3604b4f")
-		(property "Reference" "C7"
+		(property "Reference" "C23"
 			(at 230.378 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12007,7 +12122,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "C7")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -12025,7 +12140,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a258ebc-f0c1-4cae-bff1-a16a6f523386")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR022"
 			(at 130.81 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12085,7 +12200,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR019")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -12104,7 +12219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b3471e0-f2e1-4c13-b385-7398c446c8d9")
-		(property "Reference" "CN3"
+		(property "Reference" "CN1"
 			(at 146.05 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12204,7 +12319,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "CN3")
+					(reference "CN1")
 					(unit 1)
 				)
 			)
@@ -12222,7 +12337,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d19aa4f-9cdf-4002-8fc4-66110b84d16b")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR046"
 			(at 256.54 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -12282,7 +12397,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR051")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -12300,7 +12415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ebcee95-24ed-4634-8e44-c7a525d28614")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR038"
 			(at 214.63 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -12360,7 +12475,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR023")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -12377,7 +12492,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f290fa5-4104-4ac5-b5c3-07669d4b3f37")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR05"
 			(at 26.67 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -12437,7 +12552,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR042")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -12533,7 +12648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72499e57-ee69-4c9a-a8f6-6e73d3f4be5e")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR028"
 			(at 151.13 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -12593,7 +12708,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR044")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -12611,7 +12726,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72b7b582-7b03-4d89-adc8-10dcf3545af8")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR043"
 			(at 237.49 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -12671,7 +12786,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR013")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -12689,7 +12804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72c04353-918a-4672-92ab-d92079b2a74d")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 264.16 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12753,7 +12868,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -12771,7 +12886,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72cff53c-0e13-4320-b405-d198c199e3b2")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR037"
 			(at 209.55 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -12831,7 +12946,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR020")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -12848,7 +12963,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73d734f2-fcd6-49bc-a633-552bf31f09ec")
-		(property "Reference" "R18"
+		(property "Reference" "R8"
 			(at 48.768 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12923,7 +13038,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "R18")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -12941,7 +13056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f32c9a1-4aea-4f8b-b150-8650fcb6edec")
-		(property "Reference" "CN6"
+		(property "Reference" "CN4"
 			(at 273.05 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13038,7 +13153,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "CN6")
+					(reference "CN4")
 					(unit 1)
 				)
 			)
@@ -13050,7 +13165,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13148,7 +13263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89368b38-5e29-42de-832e-35271125b107")
-		(property "Reference" "U6"
+		(property "Reference" "U1"
 			(at 44.45 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13168,7 +13283,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lcsc:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL"
 			(at 44.45 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -13191,6 +13306,17 @@
 			)
 		)
 		(property "Description" "Dual Operational Amplifiers, SOIC-8/TSSOP-8/VSSOP-8"
+			(at 44.45 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C54539963"
 			(at 44.45 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -13228,7 +13354,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "U6")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -13246,7 +13372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e651ce4-b46a-4e08-8032-0143bc637389")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 153.67 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -13306,7 +13432,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -13323,7 +13449,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94785b33-1439-4cb6-9ac5-169571f1d15c")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR029"
 			(at 151.13 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -13383,7 +13509,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR046")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -13401,7 +13527,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95291bcd-b285-46bc-b6b1-d89430775a36")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR032"
 			(at 189.23 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -13461,7 +13587,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR017")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -13479,7 +13605,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9805dc3d-f298-4d7a-9db1-5cf45f69d4e2")
-		(property "Reference" "C4"
+		(property "Reference" "C22"
 			(at 220.218 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13554,7 +13680,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "C4")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -13572,7 +13698,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "986c542b-c63d-4de6-9238-f38fc9a45a23")
-		(property "Reference" "R5"
+		(property "Reference" "R9"
 			(at 65.532 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13627,7 +13753,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C95177"
+		(property "LCSC Part" "C105578"
 			(at 67.31 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -13647,7 +13773,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "R5")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -13665,7 +13791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99426325-9dd6-4d63-b68a-296bc0726e08")
-		(property "Reference" "U6"
+		(property "Reference" "U1"
 			(at 111.76 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13685,7 +13811,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lcsc:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL"
 			(at 111.76 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -13708,6 +13834,17 @@
 			)
 		)
 		(property "Description" "Dual Operational Amplifiers, SOIC-8/TSSOP-8/VSSOP-8"
+			(at 111.76 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C54539963"
 			(at 111.76 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -13745,7 +13882,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "U6")
+					(reference "U1")
 					(unit 2)
 				)
 			)
@@ -13758,12 +13895,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9be1af69-55b1-4ddc-ab36-02bf7bad581f")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 31.242 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13838,7 +13975,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -13931,7 +14068,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a32222e3-865e-4b77-aabe-88991e450c14")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 101.092 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13986,7 +14123,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C95177"
+		(property "LCSC Part" "C98220"
 			(at 102.87 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -14006,7 +14143,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -14024,7 +14161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a89ae562-d89a-4e1f-8b13-0b45960cfd17")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 85.09 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -14084,7 +14221,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -14097,12 +14234,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8b8e0c0-3279-44ca-b151-2fceec8ac6a7")
-		(property "Reference" "C1"
+		(property "Reference" "C5"
 			(at 28.448 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14177,15 +14314,15 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "C1")
+					(reference "C5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack2")
-		(at 54.61 157.48 0)
+		(lib_id "LCSC:PJ-603A")
+		(at 45.72 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14194,9 +14331,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aba65db4-9c17-475e-babf-a6ce7026e1fc")
-		(property "Reference" "J3"
-			(at 53.975 148.59 0)
+		(uuid "a8c2944a-5687-42c5-9b58-5a54c760ec06")
+		(property "Reference" "J1"
+			(at 42.8 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14205,8 +14342,8 @@
 				)
 			)
 		)
-		(property "Value" "AudioJack2"
-			(at 53.975 151.13 0)
+		(property "Value" "PJ-603A"
+			(at 42.8 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14215,8 +14352,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 54.61 157.48 0)
+		(property "Footprint" "lcsc:AUDIO-TH_PJ-603A"
+			(at 45.72 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14226,8 +14363,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 54.61 157.48 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_HOOYA-PJ-603A_C309273.html"
+			(at 45.72 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14237,8 +14374,8 @@
 				)
 			)
 		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 54.61 157.48 0)
+		(property "Description" ""
+			(at 45.72 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14248,16 +14385,55 @@
 				)
 			)
 		)
-		(pin "S"
-			(uuid "4e0cd344-4990-4c83-a9b3-9b12ab4ed403")
+		(property "Manufacturer" "HOOYA(皓宇电子)"
+			(at 45.72 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "T"
-			(uuid "741c914a-0156-4427-a2a8-d3bd51b2ff05")
+		(property "MPN" "PJ-603A"
+			(at 45.72 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C309273"
+			(at 45.72 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "9f6a5201-195a-4e42-8742-feb014790caa")
+		)
+		(pin "3"
+			(uuid "3fde34dc-4b8a-40c0-931b-b90af4ad60da")
+		)
+		(pin "2"
+			(uuid "a25f7204-92b2-43a8-92f0-b18a8c6f3f1b")
+		)
+		(pin "4"
+			(uuid "009e5227-a2bd-4168-b82f-6c928cf37ad3")
 		)
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -14274,7 +14450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aee874a3-847d-4442-bdec-b0247c833b25")
-		(property "Reference" "R12"
+		(property "Reference" "R4"
 			(at 30.988 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14329,7 +14505,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C95177"
+		(property "LCSC Part" "C105588"
 			(at 29.21 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -14349,7 +14525,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "R12")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -14367,7 +14543,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b07e3a55-6215-441f-9f01-f920bb511ae8")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 32.258 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14442,7 +14618,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -14455,12 +14631,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2675bc3-7c4e-4dc9-84e9-dba24f0f62a1")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 62.738 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14535,7 +14711,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -14553,7 +14729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4125802-c43e-49e1-908b-4bcc373fd305")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR08"
 			(at 30.48 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -14613,7 +14789,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR01")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -14631,7 +14807,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b4415b9f-7abc-4478-bc57-3434b046d1e4")
-		(property "Reference" "R10"
+		(property "Reference" "R13"
 			(at 111.76 169.418 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14686,7 +14862,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C95177"
+		(property "LCSC Part" "C98220"
 			(at 113.03 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -14706,7 +14882,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "R10")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -14724,7 +14900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b64f6224-7349-4a1b-a10c-44d5e50b6159")
-		(property "Reference" "CN4"
+		(property "Reference" "CN5"
 			(at 271.78 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14830,7 +15006,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "CN4")
+					(reference "CN5")
 					(unit 1)
 				)
 			)
@@ -14848,7 +15024,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9940d6b-472f-44a3-af33-8580195e873e")
-		(property "Reference" "R6"
+		(property "Reference" "R10"
 			(at 76.962 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14903,7 +15079,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C95177"
+		(property "LCSC Part" "C105578"
 			(at 78.74 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -14923,7 +15099,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "R6")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -14941,7 +15117,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bea964d7-b929-45f9-b837-2c996e30986e")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 144.78 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15001,7 +15177,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -15014,12 +15190,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0465921-ed27-4775-85d7-0986a8b50d34")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 28.448 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15094,7 +15270,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -15111,7 +15287,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c04fc861-8df1-4cc4-b57e-2c05d595fbeb")
-		(property "Reference" "C13"
+		(property "Reference" "C21"
 			(at 216.662 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15186,7 +15362,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "C13")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -15204,7 +15380,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c520c305-9eff-458f-9d0b-9960ed0601da")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 137.16 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -15264,7 +15440,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -15281,7 +15457,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c74e37bf-b910-4f07-bb15-844baef1f0b7")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR012"
 			(at 57.15 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -15341,7 +15517,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR052")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -15359,7 +15535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c98a251b-d2ee-42a4-b3bb-ef1fef541188")
-		(property "Reference" "U2"
+		(property "Reference" "U5"
 			(at 239.6333 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15473,7 +15649,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "U2")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -15490,7 +15666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cae251c0-38db-482a-a5e6-0fcc0ed2d85b")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 207.01 133.3499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15512,7 +15688,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-882"
 			(at 204.47 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -15554,7 +15730,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -15572,7 +15748,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc60d2c1-c64c-458d-a824-9cab8519858c")
-		(property "Reference" "D6"
+		(property "Reference" "D4"
 			(at 248.92 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15594,7 +15770,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-882"
 			(at 251.46 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -15636,7 +15812,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -15725,7 +15901,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -15822,7 +15998,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1ab9946-36ce-4154-9dfc-a57140ef0c62")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR016"
 			(at 67.31 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -15882,7 +16058,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR025")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -15900,7 +16076,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5d53d8c-8f04-48f8-a004-0c6f0e40ea30")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 248.92 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15922,7 +16098,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-882"
 			(at 251.46 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -15964,7 +16140,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -15982,7 +16158,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7bb7729-b004-47c3-91eb-c5cfd922cfb4")
-		(property "Reference" "C22"
+		(property "Reference" "C14"
 			(at 141.478 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16057,7 +16233,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "C22")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -16074,7 +16250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db19b38e-49ba-4801-a5f0-aeb5aaac068d")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR039"
 			(at 214.63 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -16134,7 +16310,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR024")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -16227,7 +16403,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de166a3c-2801-4608-b2b0-cf0a08d20431")
-		(property "Reference" "R7"
+		(property "Reference" "R11"
 			(at 83.82 155.702 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16282,7 +16458,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C95177"
+		(property "LCSC Part" "C99782"
 			(at 85.09 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -16302,7 +16478,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "R7")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -16320,7 +16496,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df23a66c-b5dc-4990-94ed-329bc7876253")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 50.8 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -16380,7 +16556,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -16398,7 +16574,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0cfdecb-ece6-4776-9313-754723ef7caf")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR041"
 			(at 222.25 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -16458,7 +16634,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR07")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -16475,7 +16651,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e321cdf9-556f-4e81-9766-8a30e837ab0b")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 209.55 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16497,7 +16673,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-882"
 			(at 207.01 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -16539,7 +16715,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -16552,12 +16728,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e545cf4d-5d8e-46e6-8f03-b6be23971d0a")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 20.828 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16632,7 +16808,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -16650,7 +16826,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e70c9c7a-7c4e-4fb7-9889-add0d139df4a")
-		(property "Reference" "R2"
+		(property "Reference" "R6"
 			(at 37.338 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16725,7 +16901,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "R2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -16742,7 +16918,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8e34ad3-8d97-4600-b797-33f9f86f6854")
-		(property "Reference" "C21"
+		(property "Reference" "C10"
 			(at 72.39 155.448 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16817,7 +16993,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "C21")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -16835,7 +17011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8f8e269-bc27-41dc-984e-33ffe39bc724")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 264.16 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16899,7 +17075,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -16917,7 +17093,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9a08fde-1327-4777-8cd1-73f394ae5590")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR03"
 			(at 22.86 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -16977,7 +17153,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -16995,7 +17171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec41f138-8f15-4ff0-bee3-eca132da0f24")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR023"
 			(at 135.89 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -17055,7 +17231,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR037")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -17067,7 +17243,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -17165,7 +17341,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef18f0ed-8c57-4085-8fa5-a3ac07615545")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR019"
 			(at 121.92 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -17225,7 +17401,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR034")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -17243,7 +17419,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4ce777a-51ac-4812-a62d-90f2b981e810")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR044"
 			(at 251.46 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -17303,7 +17479,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR050")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -17321,7 +17497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5136940-a7fe-4671-be4a-74fe77736998")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR021"
 			(at 129.54 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -17381,7 +17557,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR036")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -17394,12 +17570,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6f3e645-d20b-4c45-bbc1-a226685060cc")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 40.132 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17474,7 +17650,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -17491,7 +17667,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f77f8f07-7376-4970-9a84-8823b9e04cb5")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 165.608 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17546,7 +17722,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C95177"
+		(property "LCSC Part" "C105588"
 			(at 163.83 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -17566,7 +17742,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -17584,7 +17760,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9dded21-1a95-4f4c-b55b-b38252d180fe")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 30.48 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -17644,7 +17820,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -17661,7 +17837,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb2095bd-afa6-4a0d-8745-bb062207234e")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR034"
 			(at 199.39 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -17721,7 +17897,7 @@
 		(instances
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR039")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
