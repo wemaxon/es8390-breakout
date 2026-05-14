@@ -44,3 +44,7 @@ fp-info-cache
 
 # Python
 .venv
+
+# LTSpice
+*.log
+*.raw
