@@ -2776,7 +2776,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LCSC:IM68A130AXTMA1"
+		(symbol "LCSC:MSM381ACP003_C51928212"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2792,7 +2792,7 @@
 					)
 				)
 			)
-			(property "Value" "IM68A130AXTMA1"
+			(property "Value" "MSM381ACP003_C51928212"
 				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2802,7 +2802,7 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc:MIC-SMD_4P-L3.4-W2.5_IM68A130V01"
+			(property "Footprint" "lcsc:MIC-SMD_4P-L2.8-W1.9-TR_MSM381ACP003"
 				(at 0 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2813,7 +2813,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C19188583.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C51928212.pdf"
 				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2835,7 +2835,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Infineon(英飞凌)"
+			(property "Manufacturer" "MEMS(敏芯微)"
 				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2846,7 +2846,7 @@
 					)
 				)
 			)
-			(property "MPN" "IM68A130AXTMA1"
+			(property "MPN" "MSM381ACP003"
 				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2857,7 +2857,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C19188583"
+			(property "LCSC Part" "C51928212"
 				(at 0 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2868,7 +2868,7 @@
 					)
 				)
 			)
-			(symbol "IM68A130AXTMA1_0_1"
+			(symbol "MSM381ACP003_C51928212_0_1"
 				(rectangle
 					(start -6.35 3.81)
 					(end 6.35 -3.81)
@@ -2894,7 +2894,7 @@
 				(pin unspecified line
 					(at -8.89 1.27 0)
 					(length 2.54)
-					(name "OUT"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2912,7 +2912,7 @@
 				(pin unspecified line
 					(at -8.89 -1.27 0)
 					(length 2.54)
-					(name "GND"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2930,7 +2930,7 @@
 				(pin unspecified line
 					(at 8.89 -1.27 180)
 					(length 2.54)
-					(name "VDD"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4528,6 +4528,12 @@
 		(uuid "5262c252-aa20-4530-af7e-dd3af329f18b")
 	)
 	(junction
+		(at 208.28 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55d8d3d6-b3eb-42ff-96a3-50a563281fec")
+	)
+	(junction
 		(at 151.13 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4726,16 +4732,6 @@
 			(type default)
 		)
 		(uuid "04be28fe-e487-45b4-a5a2-303bf62bbc9c")
-	)
-	(wire
-		(pts
-			(xy 234.95 92.71) (xy 233.68 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04d4bc6d-be2d-45cb-abf0-78c6137fe3fb")
 	)
 	(wire
 		(pts
@@ -5619,6 +5615,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 95.25) (xy 208.28 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76834855-1192-4558-a0b9-4c56a9309276")
+	)
+	(wire
+		(pts
 			(xy 191.77 52.07) (xy 224.79 52.07)
 		)
 		(stroke
@@ -5746,6 +5752,16 @@
 			(type default)
 		)
 		(uuid "8ae32945-37c3-4ad0-8fc9-22451800aa93")
+	)
+	(wire
+		(pts
+			(xy 227.33 95.25) (xy 240.03 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b5d5ba1-e998-4829-900a-4da01f810606")
 	)
 	(wire
 		(pts
@@ -6069,16 +6085,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 97.79) (xy 234.95 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9952235-0f31-4c75-9d87-10c55f84568f")
-	)
-	(wire
-		(pts
 			(xy 222.25 21.59) (xy 232.41 21.59)
 		)
 		(stroke
@@ -6139,7 +6145,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 97.79) (xy 214.63 95.25)
+			(xy 208.28 100.33) (xy 208.28 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6249,16 +6255,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 95.25) (xy 233.68 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c29bde43-665b-42c0-94b1-c5c6992b2ed0")
-	)
-	(wire
-		(pts
 			(xy 135.89 116.84) (xy 139.7 116.84)
 		)
 		(stroke
@@ -6349,7 +6345,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 92.71) (xy 215.9 92.71)
+			(xy 228.6 97.79) (xy 227.33 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6456,6 +6452,16 @@
 			(type default)
 		)
 		(uuid "d2745e41-e7c0-46f2-9119-eb4e47f7eb03")
+	)
+	(wire
+		(pts
+			(xy 209.55 95.25) (xy 208.28 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e8d33a-58b3-4b61-824e-eae93a6be0ad")
 	)
 	(wire
 		(pts
@@ -6629,7 +6635,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 95.25) (xy 215.9 95.25)
+			(xy 208.28 97.79) (xy 209.55 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7035,17 +7041,17 @@
 	)
 	(global_label "RIN1"
 		(shape input)
-		(at 214.63 92.71 180)
+		(at 228.6 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "3ab43ee0-3723-464a-8bc0-540c787e611e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.23 92.71 0)
+			(at 236 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7053,7 +7059,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -11237,125 +11243,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LCSC:IM68A130AXTMA1")
-		(at 224.79 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5dc1206d-32dd-4252-87a5-b051b27abe37")
-		(property "Reference" "U4"
-			(at 224.79 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IM68A130AXTMA1"
-			(at 224.79 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc:MIC-SMD_4P-L3.4-W2.5_IM68A130V01"
-			(at 224.79 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C19188583.pdf"
-			(at 224.79 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 224.79 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Infineon(英飞凌)"
-			(at 224.79 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "IM68A130AXTMA1"
-			(at 224.79 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C19188583"
-			(at 224.79 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ab57153a-f238-49ab-96a4-a479ea49ab02")
-		)
-		(pin "3"
-			(uuid "b7d5c4dc-bcee-4eae-aa3c-cca6db62a2e2")
-		)
-		(pin "4"
-			(uuid "84cffcb3-f79c-4d90-8207-369e14c2e4eb")
-		)
-		(pin "2"
-			(uuid "4e593460-638c-4a95-ba99-c78c2ea1f0ee")
-		)
-		(instances
-			(project "ES8390-breakout"
-				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_TVS_Small")
 		(at 254 134.62 270)
 		(mirror x)
@@ -11413,6 +11300,17 @@
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
 			(at 254 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5199205"
+			(at 254 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12079,7 +11977,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x14_Pin"
+		(property "Value" "1x14_P2.54mm"
 			(at 146.05 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12586,7 +12484,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "JST_XH_B2B"
 			(at 264.16 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12640,84 +12538,6 @@
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 234.95 97.79 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "72cff53c-0e13-4320-b405-d198c199e3b2")
-		(property "Reference" "#PWR042"
-			(at 234.95 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 234.95 101.854 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a92f83d5-c63d-4085-b42b-2cc8b3a6986d")
-		)
-		(instances
-			(project "ES8390-breakout"
-				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -13173,7 +12993,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 97.79 0)
+		(at 208.28 100.33 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13184,7 +13004,7 @@
 		(dnp no)
 		(uuid "95291bcd-b285-46bc-b6b1-d89430775a36")
 		(property "Reference" "#PWR038"
-			(at 214.63 104.14 0)
+			(at 208.28 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13195,7 +13015,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 101.854 0)
+			(at 208.28 104.394 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13205,7 +13025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 97.79 0)
+			(at 208.28 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13216,7 +13036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 97.79 0)
+			(at 208.28 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13227,7 +13047,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 97.79 0)
+			(at 208.28 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14090,6 +13910,126 @@
 			(project "ES8390-breakout"
 				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSC:MSM381ACP003_C51928212")
+		(at 218.44 96.52 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aead3e26-4f53-4bae-9311-224416a2bed9")
+		(property "Reference" "U4"
+			(at 218.44 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MSM381ACP003_C51928212"
+			(at 218.44 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc:MIC-SMD_4P-L2.8-W1.9-TR_MSM381ACP003"
+			(at 218.44 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C51928212.pdf"
+			(at 218.44 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MEMS(敏芯微)"
+			(at 218.44 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MSM381ACP003"
+			(at 218.44 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C51928212"
+			(at 218.44 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "47bea15d-5dad-40f6-a7be-9d277374e14e")
+		)
+		(pin "3"
+			(uuid "eeba8f4f-c03f-4a0e-a2f2-684fd9069a6d")
+		)
+		(pin "2"
+			(uuid "1371a140-0517-4884-8e24-612deb767802")
+		)
+		(pin "4"
+			(uuid "8ae5ab4f-6a63-48f5-9093-aa6d6d1f0ff1")
+		)
+		(instances
+			(project "ES8390-breakout"
+				(path "/bacd90e0-d0e6-416e-94f2-e705833f8e7a"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -15455,6 +15395,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C5199205"
+			(at 204.47 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c5298a73-6f83-4727-9b13-02d2aa9632d2")
 		)
@@ -15774,6 +15725,17 @@
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol"
 			(at 251.46 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5199205"
+			(at 251.46 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16436,6 +16398,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C5199205"
+			(at 207.01 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5c7f8cae-d826-4984-a1eb-94b5eaca192e")
 		)
@@ -16752,7 +16725,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "JST_XH_B2B"
 			(at 264.16 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
