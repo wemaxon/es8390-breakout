@@ -6071,7 +6071,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C10"
-			(at 0 -5.8 0)
+			(at 0 -4.6 0)
 			(layer "F.SilkS")
 			(uuid "893de70c-627e-4786-895e-dda828c80214")
 			(effects
@@ -13314,7 +13314,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R11"
-			(at 0 3.1 0)
+			(at 0 4.5 0)
 			(layer "F.SilkS")
 			(uuid "3cd0a0e8-85ef-4ce1-b44d-a64edb800aab")
 			(effects
@@ -13575,18 +13575,6 @@
 		)
 	)
 	(gr_text "GND"
-		(at 87.63 82.55 0)
-		(layer "B.SilkS")
-		(uuid "7127bb14-64cd-4630-a48d-4ad73db1f10e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify top mirror)
-		)
-	)
-	(gr_text "GND"
 		(at 87.63 105.156 0)
 		(layer "B.SilkS")
 		(uuid "55d65808-d0ee-41ee-a457-d4373bda63bd")
@@ -13650,6 +13638,18 @@
 		(at 88.138 102.616 0)
 		(layer "B.SilkS")
 		(uuid "2b0ed695-9c15-4746-92c5-c13e22919aa2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify top mirror)
+		)
+	)
+	(gr_text "MCLK"
+		(at 88.2 82.55 0)
+		(layer "B.SilkS")
+		(uuid "7127bb14-64cd-4630-a48d-4ad73db1f10e")
 		(effects
 			(font
 				(size 1 1)
