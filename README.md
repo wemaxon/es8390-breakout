@@ -28,4 +28,4 @@ Tested Features:
 
 
 ## Todo
-- Fix OUT connections, OUTN to gnd, use single ended
+- Fix OUT connections, OUTN to gnd, use output as single ended
