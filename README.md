@@ -2,6 +2,8 @@
 
 A KiCad-based ES8390 audio codec breakout board featuring guitar and line inputs, an onboard MEMS microphone, line and amplified stereo speaker outputs.
 
+![pcb](docs/pcb.png)
+
 Tested Features:
 - [x] LP5907 3.0V LDO
 - [x] ES8390 Audio-Codec
@@ -16,6 +18,7 @@ Tested Features:
 ## Schematic
 ![schematic](docs/schematics.svg)
 
+
 ## Layout
 ![layer_f](docs/layer_f.png)
 ![layer_in1](docs/layer_in1.png)
@@ -23,5 +26,6 @@ Tested Features:
 ![layer_b](docs/layer_b.png)
 
 
-## 3d View
-![3d](docs/3d.png)
+
+## Todo
+- Fix OUT connections, OUTN to gnd, use single ended
